@@ -19,18 +19,29 @@ section, summary, time, mark, audio, video {
   font: inherit;
   vertical-align: baseline; }
 
-.language-flag {
-	height: 30px;
-	width: 50px;
-	border-radius: 5px;
-	display: inline;
-	cursor: pointer;
-	margin-right: 2vw;
+.form-field-margin {
+  margin-bottom: 15px;
 }
 
-.language-flag:hover {
-	height: 31px;
-	width: 51px;
+.form-button-margin {
+  margin-bottom: 30px;
+}
+
+.align-horizontal {
+  text-align:center;
+}
+
+.align-vertical {
+  vertical-align: middle;
+}
+
+.language-flag {
+	height: 20px;
+	width: 25px;
+	border-radius: 2px;
+	display: inline;
+	cursor: pointer;
+	margin-right: 1vw;
 }
 
 article, aside, details, figcaption, figure,
@@ -101,7 +112,7 @@ body {
 
 /* Type */
 body, input, select, textarea {
-  color: #7f888f;
+  color: #474747;
   font-family: "Open Sans", sans-serif;
   font-size: 13pt;
   font-weight: 400;
@@ -1462,7 +1473,8 @@ table {
     table tbody tr:nth-child(2n + 1) {
       background-color: rgba(230, 235, 237, 0.25); }
   table td {
-    padding: 0.75em 0.75em; }
+    padding: 0.75em 0.75em;
+   }
   table th {
     color: #3d4449;
     font-size: 0.9em;
@@ -1525,7 +1537,9 @@ button,
   input[type="button"]:hover,
   button:hover,
   .button:hover {
-    background-color: rgba(245, 106, 106, 0.05); }
+    background-color: rgba(245, 106, 106, 0.05); 
+    box-shadow: inset 0 0 0 4px #f56a6a;
+  }
   input[type="submit"]:active,
   input[type="reset"]:active,
   input[type="button"]:active,
