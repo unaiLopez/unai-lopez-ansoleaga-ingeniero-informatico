@@ -44,6 +44,27 @@ section, summary, time, mark, audio, video {
 	margin-right: 1vw;
 }
 
+.container-portfolio {
+  position: relative;
+}
+
+.text-block-portfolio {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.8) ;
+  color: white;
+  border-radius: 0.375em;
+  border: 2px solid #ffffff;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.text-block-portfolio h3 {
+  color:white;
+  margin: 0;
+}
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block; }
