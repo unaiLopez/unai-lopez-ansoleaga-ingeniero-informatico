@@ -44,6 +44,20 @@ section, summary, time, mark, audio, video {
 	margin-right: 1vw;
 }
 
+.no-margin {
+  margin: 0;
+}
+
+.portfolio-area-title {
+  position: absolute;
+  right: 6%;
+}
+
+.date-separator {
+  margin:0;
+  border: 2px solid #f45c5c;
+}
+
 .container-portfolio {
   position: relative;
 }
