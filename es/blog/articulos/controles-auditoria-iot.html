@@ -1,0 +1,273 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Unai López Ansoleaga: Ingeniero Informático</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../../../assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Section -->
+							<section>
+								<h2 class="no-margin">Controles y Auditoría del IoT</h2>
+								<h3 class="no-margin  portfolio-area-title">17 Noviembre, 2019</h3>				
+                                <hr class="date-separator">
+                                <br>
+                            </section>
+                            <p>
+                                En los posts anteriores comenté varios temas relacionados con el IoT como:
+                                una explicación de esta tecnología, tendencias dentro de la industria y
+                                riesgos que el uso indiscriminado y descontrolado de esta tecnología
+                                pueden generar. Pero, ¿cómo se pueden controlar estos dispositivos?
+                            </p>
+                            <p>
+                                El hecho de que existan miles y miles de diferentes dispositivos IoT y cada
+                                uno de ellos tenga diferentes tipos de comunicaciones entre ellos, dificulta
+                                la creación de un estándar.
+                            </p>
+                            <p>
+                                Al inicio del IoT, para los protocolos de autenticación usuario-dispositivo y
+                                dispositivo-usuario se utilizaron protocolos ya existentes. Más tarde, varios
+                                investigadores empezaron integrando otros protocolos de identificación y
+                                autenticación como OpenID y OAuth2 pero aunque estos permitían facilitar
+                                la comunicación entre usuarios y dispositivos, existían casos como en los de
+                                las “Smart Cities” y servicios industriales en los que estos protocolos se
+                                quedaban cortos. [1]
+                            </p>
+                            <p>
+                                Este problema ha acabado creando una enorme diversidad de tipos de
+                                comunicaciones y dispositivos que dificulta enormemente la creación de un
+                                estándar para poder mantener un control generalizado de los dispositivos
+                                de IoT.
+                            </p>
+                            <p>
+                                A pesar de la falta de un estándar, el gobierno de los Estados Unidos entre
+                                otros, ha dado algunos pasos para prevenir la posibilidad de brechas de
+                                seguridad en los dispositivos de seguridad. Sin ir más lejos, el
+                                Departamento de Seguridad Nacional ha creado seis principios estratégicos
+                                para proteger estos dispositivos: [2]
+                            </p>
+                            <ul>
+                                <li>Incorporar la seguridad en la fase de diseño.</li>
+                                <li>Actualizaciones avanzadas en la gestión de la seguridad vulnerabilidades.</li>
+                                <li>Basarse en prácticas de seguridad comprobadas.</li>
+                                <li>Priorizar las medidas de seguridad según el impacto potencial.</li>
+                                <li>Promover la transparencia alrededor del IoT.</li>
+                                <li>Promover la conectividad cuidadosa y deliberada.</li>
+                            </ul>
+                            <p>
+                                También existen algunos marcos como por ejemplo el marco de Zachman.
+                                Este marco trata de comprender ideas complejas mediante las primitivas
+                                preguntas qué, cómo, cuándo, quién, donde y por qué. [3] Al aplicar el
+                                marco de Zachman a la arquitectura IoT podemos obtener lo siguiente:
+                            </p>
+                            <article>
+                                <div class="align-horizontal">
+                                    <img src="../../../images/blog/zachman-framework-security.png" height="300" width="400" alt="">
+                                </div>
+                            </article>
+                            <br>
+                            <p>
+                                Siguiendo esta tabla es más fácil auditar y controlar un dispositivo de IoT.
+                                Además, si se le echa un vistazo a la fila “Where”, podemos ver que se le da
+                                importancia a cada componente de cada capa. Esto es algo que no siempre
+                                se tiene en cuenta, pero es algo capital para comprender la seguridad IoT.
+                                Un buen control de la seguridad debe tener en cuenta la seguridad por cada
+                                capa de la arquitectura y por cada comunicación que cada una de esas
+                                capas tienen con las demás. De esta manera también se comprenderá si
+                                este dispositivo tiene alguna capa en la nube o no y lo que ello puede
+                                significar a nivel de seguridad. [4]
+                            </p>
+                            <p>
+                                Existen más instituciones las cuales se han centrado en crear marcos para
+                                la protección de los dispositivos de IoT. Por ejemplo, el Instituto Nacional de
+                                Estándares y Tecnología de EEUU [5] ha creado un informe con el objetivo
+                                de ayudar a las organizaciones a mejorar la ciberseguridad de esta
+                                tecnología tratando de abarcar los principales problemas de esta tecnología
+                                como la protección de la seguridad del dispositivo, la protección de la
+                                seguridad de la información y la protección de la privacidad del individuo,
+                                entre otros. [6]
+                            </p>
+                            <p>
+                                Como conclusión final, se podría decir que la seguridad de la IoT a menudo
+                                carece de prioridad cuando se diseñan y aplican los sistemas. La seguridad
+                                de la IoT no significa solamente seguridad a nivel de dispositivo, además de
+                                esto, es necesaria aplicarla en todos los componentes y capas del sistema y
+                                para ello, es necesario abordarlo en todas las fases del ciclo de vida del
+                                sistema, incluidas las fases de diseño, instalación, configuración y
+                                funcionamiento.
+                            </p>
+                            <p>
+                                Además, las contraseñas y claves de certificado sólidas, los nombres e
+                                identificadores de dispositivos o hosts difíciles de adivinar, la supervisión, el
+                                análisis de registros, la gestión proactiva de usuarios y dispositivos y las
+                                recomendaciones de seguridad de todas las organizaciones que se dediquen
+                                a este dominio, como por ejemplo, el anteriormente mencionado Instituto
+                                Nacional de Estándares y Tecnología de la EEUU, son de vital importancia
+                                para lograr una buena seguridad en un sistema IoT.
+                            </p>
+                            <h3>Referencias</h3>
+                            <ol>
+                                <li>&lt;&lt; Computer Cybersecurity &gt;&gt;, IEEE Computer Society, vol 51 no 4 (2018): 18</li>
+                                <br>
+                                <li>&lt;&lt; Strategic Principles for Securing the Internet of Things (IoT) &gt;&gt;,
+                                    U.S. Department of Homeland Security, acceso el 15 de Noviembre del 2019,
+                                    <a href="https://www.dhs.gov/sites/default/files/publications/Strategic_Principle
+                                    s_for_Securing_the_Internet_of_Things-2016-1115-FINAL_v2-dg11.pdf">https://www.dhs.gov/sites/default/files/publications/Strategic_Principle
+                                    s_for_Securing_the_Internet_of_Things-2016-1115-FINAL_v2-dg11.pdf</a>
+                                </li>
+                                <br>
+                                <li>&lt;&lt; The Internet of Things: What Is It and Why Should Internal Audit Care? &gt;&gt;, Knowledge Leader, acceso el 22 de Octubre del 2019,
+                                    <a href="https://www.knowledgeleader.com/knowledgeleader/content.nsf/web
+                                    +content/arttheinternetofthings">https://www.knowledgeleader.com/knowledgeleader/content.nsf/web
+                                    +content/arttheinternetofthings</a>
+                                </li>
+                                <br>
+                                <li>&lt;&lt; The Concise Definition of the Zachman Framework &gt;&gt;, Zachman
+                                    International Enterprise Architecture, acceso el 7 de Noviembre del
+                                    2019, <a href="https://www.zachman.com/about-the-zachman-framework">https://www.zachman.com/about-the-zachman-framework</a>
+                                </li>
+                                <br>
+                                <li>&lt;&lt; IoT necesita una mejor seguridad &gt;&gt;, ISACA Journal Volume 3,
+                                    2017, <a href="https://www.isaca.org/Journal/archives/2017/Volume-3/Pages/iot-
+                                    needs-better-security-spanish.aspx">https://www.isaca.org/Journal/archives/2017/Volume-3/Pages/iot-
+                                    needs-better-security-spanish.aspx</a>
+                                </li>
+                                <br>
+                                <li>&lt;&lt; Instituto Nacional de Estándares y Tecnología &gt;&gt;, Wikipedia, acceso el 17 de Noviembre del 2019,
+                                    <a href="https://es.wikipedia.org/wiki/Instituto_Nacional_de_Est
+                                    %C3%A1ndares_y_Tecnolog%C3%ADa">https://es.wikipedia.org/wiki/Instituto_Nacional_de_Est
+                                    %C3%A1ndares_y_Tecnolog%C3%ADa</a>
+                                </li>
+                                <br>
+                                <li>&lt;&lt; Defensa Frente a las Ciberamenazas &gt;&gt;, CCN-CERT, acceso el 17 de Noviembre del 2019,
+                                    <a href="https://www.ccn-cert.cni.es/seguridad-al-dia/
+                                    noticias-seguridad/8336-recomendaciones-del-nist-para-proteger-los-
+                                    dispositivos-iot.html">https://www.ccn-cert.cni.es/seguridad-al-dia/
+                                    noticias-seguridad/8336-recomendaciones-del-nist-para-proteger-los-
+                                    dispositivos-iot.html</a>
+                                </li>
+                            </ol>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li>
+											<section id="languages" class="alt">
+												<img class="language-flag" src="../../../images/icons/spanish-flag.png" alt="">
+												<img class="language-flag" src="../../../images/icons/eeuu-great-britain-flag.png" alt="">
+											</section>
+										</li>
+										<li><a href="../../../index.html">Inicio</a></li>
+										<li>
+											<span class="opener">Portfolio</span>
+											<ul>
+												<li><a href="../../portfolio/desarrollo-web/inicio.html">Desarrollo Web</a></li>
+												<li><a href="../../portfolio/ciencias-de-datos-ia/inicio.html">Ciencias de Datos</a></li>
+												<li><a href="../../portfolio/desarrollo-movil/inicio.html">Desarrollo Móvil</a></li>
+												<li><a href="../../portfolio/scripting/inicio.html">Scripting</a></li>
+											</ul>
+										</li>
+										<li><a href="../mis-articulos.html">Blog</a></li>
+										<li><a href="../../libreria/libros-que-me-gustan.html">Libros que me Gustan</a></li>
+									</ul>
+								</nav>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Mis Último Libros</h2>
+									</header>
+									<div class="mini-posts">
+										<article>
+											<a href="../../libreria/libros-que-me-gustan.html" class="image"><img src="../../../images/books/que-ven-los-astronautas-cuando-cierran-los-ojos.jpg" alt="" /></a>
+											<h3>¿Qué ven los astronautas cuando cierran los ojos?</h3>
+											<p><i>Antonio Martínez Ron</i></p>
+										</article>
+										<article>
+											<a href="../../libreria/libros-que-me-gustan.html" class="image"><img src="../../../images/books/life-3.0.png" alt="" /></a>
+											<h3>Life 3.0</h3>
+											<p><i>Max Tegmark</i></p>
+										</article>
+										<article>
+											<a href="../../libreria/libros-que-me-gustan.html" class="image"><img src="../../../images/books/el-universo-en-una-cascara-de-nuez.jpg" alt="" /></a>
+											<h3>El Universo en una Cáscara de Nuez</h3>
+											<i>Stephen Hawking</i>
+										</article>
+									</div>
+									<br>
+									<br>
+									<ul class="actions">
+										<li style="width: 100%;"><a href="../../libreria/libros-que-me-gustan.html" class="button primary fit">Ver Más Libros</a></li>
+									</ul>
+								</section>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Hablemos</h2>
+									</header>
+									<form>
+										<div class="row gr-uniform">
+											<div class="col-12 form-field-margin">
+												<input type="text" id="subject" name="subject" class="subject" placeholder="Asunto">
+											</div>
+											<div class="col-12 form-field-margin">
+												<input type="email" id="email" name="email" id="email" placeholder="Email">
+											</div>
+											<div class="col-12 form-field-margin">
+												<textarea name="message" id="message" cols="30" rows="8" placeholder="Contenido del mensaje"></textarea>
+											</div>
+											<div class="col-12 form-button-margin">
+												<input id="email-button" class="button primary" type="submit" value="Enviar Mensaje"/>
+												<input type="reset" value="Reset">
+											</div>
+										</div>
+									</form>
+									
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="mailto:unai19970315@gmail.com">unai19970315@gmail.com</a></li>
+										<li class="icon solid fa-phone">+34 689943292</li>
+										<li class="icon solid fa-home"><a href="https://www.google.com/maps/place/Ormatzabekoa+Kalea,+2,+48993+Getxo,+Bizkaia/@43.3593223,-3.0110742,17z/data=!3m1!4b1!4m5!3m4!1s0xd4e5bfaed42f86d:0x9ec0c98c741f827e!8m2!3d43.3593223!4d-3.0088855">Ormatzabekoa kalea 2</a><br />
+										Getxo, España</li>
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">Copyright &copy; 2020 Unai López Ansoleaga &copy; de su respectivo  propietario</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="../../../assets/js/jquery.min.js"></script>
+			<script src="../../../assets/js/browser.min.js"></script>
+			<script src="../../../assets/js/breakpoints.min.js"></script>
+			<script src="../../../assets/js/util.js"></script>
+			<script src="../../../assets/js/main.js"></script>
+			<script src="../../../assets/js/sendEmail.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,327 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Unai López Ansoleaga: Ingeniero Informático</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../../../assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Section -->
+							<section>
+								<h2 class="no-margin">Riesgos del IoT</h2>
+								<h3 class="no-margin  portfolio-area-title">22 Octubre, 2019</h3>				
+                                <hr class="date-separator">
+                                <br>
+                            </section>
+                            <p>
+                                Después de una introducción al IoT y un repaso de las tendencias en la
+                                industria, nos podemos hacer una idea de lo que esta tecnología puede
+                                aportar no solo a las organizaciones e individuos, sino a toda la sociedad.
+                                Con esta idea en mente, en este post me voy a centrar en los riesgos que
+                                genera el IoT.
+                            </p>
+                            <p class="align-horizontal">
+                                <strong>¿Estamos preparados para los riesgos?</strong>
+                            </p>
+                            <p>
+                                Como ya comenté en el primer post, los dispositivos de IoT están creciendo
+                                a ritmos agigantados lo que supone un aumento enorme en la cantidad de
+                                dispositivos conectados a internet. Según un artículo de ISACA, se gastarán
+                                cerca de 6 trillones de dólares en soluciones IoT a lo largo de los próximos 5
+                                años. [1]
+                            </p>
+                            <p>
+                                La industria está cambiando rápidamente y los nuevos casos de IoT están
+                                madurando. Cada vez se les está añadiendo más y más funcionalidad a los
+                                sistemas IoT para tener mejoras sobre el mercado y para tener beneficios
+                                funcionales. Mientras se crean estas mejoras, en la mayoría de los casos la
+                                seguridad de los sistemas IoT se ignora durante el diseño y esto genera un
+                                gran riesgo. [1]
+                            </p>
+                            <p>
+                                Respondiendo a la pregunta, aún estamos lejos de estar preparados para los
+                                riesgos que genera el IoT. Aun así, ya se están dando pasos para la
+                                regulación de esta tecnología.
+                            </p>
+                            <p class="align-horizontal">
+                                <strong>¿Por qué necesitamos seguridad?</strong>
+                            </p>
+                            <p>
+                                El IoT no se queda indiferente ante el enorme y rápido avance de la
+                                tecnología. Según esta avanza, se crean dispositivos más inteligentes y
+                                cada vez más dispositivos están conectados a internet mediante una gran
+                                variedad de plataformas. Los problemas de privacidad, hacking y otros
+                                delitos informáticos, aumentan la probabilidad de fracaso empresarial. Esta
+                                probabilidad de fracaso es proporcional al aumento de la dependencia de
+                                internet por parte de las empresas. Las hace vulnerables y los auditores
+                                internos deben controlar de cerca los riesgos que esta enorme dependencia
+                                puede generar. [2]
+                            </p>
+                            <p>Estas son algunas evidencias de hacks sobre dispositivos IoT:</p>
+                            <ul>
+                                <li>
+                                    La Administración de Drogas y Alimentos de los Estados Unidos
+                                    emitió consejos de seguridad para los dispositivos cardíacos sobre la
+                                    amenaza de piratería informática, y el St. Jude Children’s Research
+                                    Hospital parcheó vulnerabilidades en sus dispositivos médicos de IoT.
+                                    [3]
+                                </li>
+                                <li>
+                                    Hackers demostraron un ataque inalámbrico en un automóvil Tesla
+                                    Model S. [4]
+                                </li>
+                                <li>
+                                    Investigadores hackearon una Smart TV de la marca Vizio para
+                                    acceder a una red del hogar. [5]
+                                </li>
+                            </ul>
+                            <p class="align-horizontal">
+                                <strong>¿Cómo podemos mejorar la seguridad?</strong>
+                            </p>
+                            <p>
+                                Para mejorar la seguridad es necesario el uso de algún marco como el
+                                marco de Zachman. Lo que diferencia este marco a otros intentos por
+                                mejorar la seguridad del IoT es que no solamente se centra en la seguridad
+                                del dispositivo, se centra en la seguridad sobre las cuatro capas de la
+                                arquitectura IoT: [6]
+                            </p>
+                            <article>
+                                <div class="align-horizontal">
+                                    <img src="../../../images/blog/iot-architecture.png" height="300" width="400" alt="">
+                                </div>
+                            </article>
+                            <br>
+                            <p>
+                                Centrandonos en estas cuatro capas y no solamente en el dispositivo se
+                                puede conseguir una mejorar en la seguridad del IoT y así prevenir o mitigar
+                                algunos riesgos. Pero dado que este post se centra en los riesgos y
+                                posteriormente escribiré otro post que se centre más en los controles y la
+                                auditoria no hare más referencias al tema.
+                            </p>
+                            <p>
+                                En esta última parte de mi post, pondré el foco en riesgos más específicos
+                                generados por las peculiaridades de la arquitectura de los dispositivos IoT:
+                            </p>
+                            <ul>
+                                <li><strong>Arquitectura abierta</strong></li>
+                                <p>
+                                    Internet es un sistema abierto que nos provee acceso a un sinfín de
+                                    información y su infraestructura y protocolos ya están definidos. Dado
+                                    que esta infraestructura y protocolos no son del todo seguros, se han
+                                    encontrado riesgos importantes en lo que a la seguridad y privacidad
+                                    en internet se refiere y esto no hará más que aumentar cuando
+                                    billones de dispositivos estén conectados. [7]
+                                </p>
+                                <li><strong>Limitación de los sistemas</strong></li>
+                                <p>
+                                    La mayoría de los servicios de internet están asegurados mediante
+                                    algoritmos criptográficos muy avanzados. Pero debido a la limitación
+                                    de memoria, poder computacional y vida de batería de los
+                                    dispositivos de IoT, no se pueden utilizar complicados algoritmos de
+                                    criptografía como el RSA. Por lo tanto, la seguridad de estos
+                                    dispositivos se puede ver comprometida. [7]
+                                </p>
+                                <li><strong>Falta de una estandarización</strong></li>
+                                <p>
+                                    La variedad de dispositivos de IoT que se encuentran en el mercado
+                                    en la actualidad, impedimenta la creación de un estándar. Cada
+                                    dispositivo tiene un sistema único que incluye hardware, firmware,
+                                    software e interfaces de comunicación propias.
+                                    Por ello, no existe una manera práctica de crear un estándar. [7]
+                                </p>
+                                <li><strong>Confianza e integridad insuficientes</strong></li>
+                                <p>
+                                    Cada dispositivo inteligente conectado a internet es una potencial
+                                    entrada de ataques informáticos y debido a la gran cantidad de
+                                    dispositivos actualmente conectados es imposible que todos ellos
+                                    cuenten con un control apropiado. [7]
+                                </p>
+                                <li><strong>Vulnerabilidades del software</strong></li>
+                                <p>
+                                    Si los dispositivos de IoT no están configurados para recibir
+                                    actualizaciones, el software embedido caducará y se expondrá a
+                                    multitud de ataques informáticos si continúan conectados a internet.
+                                    [7]
+                                </p>
+                                <li><strong>Malware con los dispositivos IoT como objetivo</strong></li>
+                                <p>
+                                    Especialmente los dispositivos médicos de IoT atraen a muchos
+                                    atacantes informáticos porque no tienen una avanzada seguridad y
+                                    por ello son vulnerables al malware. [7]
+                                </p>
+                            </ul>
+                            <p>
+                                Como conclusión de todo lo anteriormente mencionado, no nos podemos
+                                dejar llevar por las grandes oportunidades que trae consigo esta magnífica
+                                tecnología sin antes identificar todos los riesgos que puede generar. Estoy
+                                seguro de que finalmente se logrará tener un control efectivo respecto a
+                                esta tecnología, pero mientras tanto, queda mucho trabajo que hacer
+                                principalmente en el ámbito de la ciberseguridad.
+                            </p>
+                            <h3>Referencias</h3>
+                            <ol>
+                                <li>&lt;&lt; IoT Needs Better Security &gt;&gt;, ISACA Journal Volume 3, 2017
+                                    <a href="https://www.isaca.org/Journal/archives/2017/Volume-3/Pages/iot-
+                                    needs-better-security.aspx">https://www.isaca.org/Journal/archives/2017/Volume-3/Pages/iot-
+                                    needs-better-security.aspx</a>
+                                </li>
+                                <br>
+                                <li>&lt;&lt; The Internet of Things: What Is It and Why Should Internal Audit
+                                    Care? &gt;&gt;, Knowledge Leader, acceso el 22 de Octubre del 2019,
+                                    <a href="https://www.knowledgeleader.com/knowledgeleader/content.nsf/web
+                                    +content/arttheinternetofthings">https://www.knowledgeleader.com/knowledgeleader/content.nsf/web
+                                    +content/arttheinternetofthings</a>
+                                </li>
+                                <br>
+                                <li>&lt;&lt; St. Jude Medical Finally Patches Vulnerable Medical IoT
+                                    Devices &gt;&gt;, TechTarget, acceso el 10 de Noviembre del 2019,
+                                    <a href="http://searchsecurity.techtarget.com/news/450410935/St-Jude-
+                                    Medical-finally-patches-vulnerable-medical-IoT-devices">http://searchsecurity.techtarget.com/news/450410935/St-Jude-
+                                    Medical-finally-patches-vulnerable-medical-IoT-devices</a>
+                                </li>
+                                <br>
+                                <li>&lt;&lt; Car Hackers Demonstrate Wireless Attack on Tesla Model S &gt;&gt;, The Verge, acceso el 9 de Noviembre del 2019,
+                                    <a href="www.theverge.com/2016/9/19/12985120/tesla-model-s-hack-
+                                    vulnerability-keen-labs">www.theverge.com/2016/9/19/12985120/tesla-model-s-hack-
+                                    vulnerability-keen-labs</a>
+                                </li>
+                                <br>
+                                <li>&lt;&lt; Researchers Hack Vizio Smart TVs to Access Home Network &gt;&gt;,
+                                    Help Net Security, acceso el 10 de Noviembre del 2019, <a href="https://www.helpnetsecurity.com/2015/11/12/researchers-hack-vizio-
+                                    smart-tvs-to-access-home-network/">https://www.helpnetsecurity.com/2015/11/12/researchers-hack-vizio-
+                                    smart-tvs-to-access-home-network/</a>
+                                </li>
+                                <br>
+                                <li>&lt;&lt; The Concise Definition of the Zachman Framework &gt;&gt;, Zachman
+                                    International Enterprise Architecture, acceso el 7 de Noviembre del
+                                    2019, <a href="https://www.zachman.com/about-the-zachman-framework">https://www.zachman.com/about-the-zachman-framework</a>
+                                </li>
+                                <br>
+                                <li>&lt;&lt; Computer Cybersecurity &gt;&gt;, IEEE Computer Society, vol 51 no 4
+                                    (2018): 24-25
+                                </li>
+                            </ol>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li>
+											<section id="languages" class="alt">
+												<img class="language-flag" src="../../../images/icons/spanish-flag.png" alt="">
+												<img class="language-flag" src="../../../images/icons/eeuu-great-britain-flag.png" alt="">
+											</section>
+										</li>
+										<li><a href="../../../index.html">Inicio</a></li>
+										<li>
+											<span class="opener">Portfolio</span>
+											<ul>
+												<li><a href="../../portfolio/desarrollo-web/inicio.html">Desarrollo Web</a></li>
+												<li><a href="../../portfolio/ciencias-de-datos-ia/inicio.html">Ciencias de Datos</a></li>
+												<li><a href="../../portfolio/desarrollo-movil/inicio.html">Desarrollo Móvil</a></li>
+												<li><a href="../../portfolio/scripting/inicio.html">Scripting</a></li>
+											</ul>
+										</li>
+										<li><a href="../mis-articulos.html">Blog</a></li>
+										<li><a href="../../libreria/libros-que-me-gustan.html">Libros que me Gustan</a></li>
+									</ul>
+								</nav>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Mis Último Libros</h2>
+									</header>
+									<div class="mini-posts">
+										<article>
+											<a href="../../libreria/libros-que-me-gustan.html" class="image"><img src="../../../images/books/que-ven-los-astronautas-cuando-cierran-los-ojos.jpg" alt="" /></a>
+											<h3>¿Qué ven los astronautas cuando cierran los ojos?</h3>
+											<p><i>Antonio Martínez Ron</i></p>
+										</article>
+										<article>
+											<a href="../../libreria/libros-que-me-gustan.html" class="image"><img src="../../../images/books/life-3.0.png" alt="" /></a>
+											<h3>Life 3.0</h3>
+											<p><i>Max Tegmark</i></p>
+										</article>
+										<article>
+											<a href="../../libreria/libros-que-me-gustan.html" class="image"><img src="../../../images/books/el-universo-en-una-cascara-de-nuez.jpg" alt="" /></a>
+											<h3>El Universo en una Cáscara de Nuez</h3>
+											<i>Stephen Hawking</i>
+										</article>
+									</div>
+									<br>
+									<br>
+									<ul class="actions">
+										<li style="width: 100%;"><a href="../../libreria/libros-que-me-gustan.html" class="button primary fit">Ver Más Libros</a></li>
+									</ul>
+								</section>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Hablemos</h2>
+									</header>
+									<form>
+										<div class="row gr-uniform">
+											<div class="col-12 form-field-margin">
+												<input type="text" id="subject" name="subject" class="subject" placeholder="Asunto">
+											</div>
+											<div class="col-12 form-field-margin">
+												<input type="email" id="email" name="email" id="email" placeholder="Email">
+											</div>
+											<div class="col-12 form-field-margin">
+												<textarea name="message" id="message" cols="30" rows="8" placeholder="Contenido del mensaje"></textarea>
+											</div>
+											<div class="col-12 form-button-margin">
+												<input id="email-button" class="button primary" type="submit" value="Enviar Mensaje"/>
+												<input type="reset" value="Reset">
+											</div>
+										</div>
+									</form>
+									
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="mailto:unai19970315@gmail.com">unai19970315@gmail.com</a></li>
+										<li class="icon solid fa-phone">+34 689943292</li>
+										<li class="icon solid fa-home"><a href="https://www.google.com/maps/place/Ormatzabekoa+Kalea,+2,+48993+Getxo,+Bizkaia/@43.3593223,-3.0110742,17z/data=!3m1!4b1!4m5!3m4!1s0xd4e5bfaed42f86d:0x9ec0c98c741f827e!8m2!3d43.3593223!4d-3.0088855">Ormatzabekoa kalea 2</a><br />
+										Getxo, España</li>
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">Copyright &copy; 2020 Unai López Ansoleaga &copy; de su respectivo  propietario</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="../../../assets/js/jquery.min.js"></script>
+			<script src="../../../assets/js/browser.min.js"></script>
+			<script src="../../../assets/js/breakpoints.min.js"></script>
+			<script src="../../../assets/js/util.js"></script>
+			<script src="../../../assets/js/main.js"></script>
+			<script src="../../../assets/js/sendEmail.js"></script>
+
+	</body>
+</html>
