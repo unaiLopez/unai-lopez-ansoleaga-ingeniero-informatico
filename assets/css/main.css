@@ -23,6 +23,14 @@ section, summary, time, mark, audio, video {
   margin-bottom: 15px;
 }
 
+.not-bold {
+  font-weight: normal;
+}
+
+.justify-text {
+  text-align: justify;
+}
+
 .form-button-margin {
   margin-bottom: 30px;
 }
@@ -33,6 +41,10 @@ section, summary, time, mark, audio, video {
 
 .align-vertical {
   vertical-align: middle;
+}
+
+.align-bottom {
+  vertical-align: bottom;
 }
 
 .language-flag {
